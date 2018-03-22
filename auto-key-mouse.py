@@ -5,7 +5,7 @@ a = pyautogui
 a.PAUSE = 2;
 
 if (len(sys.argv) != 2):
-	print("Correct usage: python auto-key-mouse \"genre\"")
+	print("Correct usage: python auto-key-mouse [genre], where [genre] is a string")
 	sys.exit(0)
 genre = sys.argv[1]
 

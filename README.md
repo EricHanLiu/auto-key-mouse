@@ -4,9 +4,8 @@
 3. `python auto-key-mouse [genre]`, where [genre] is any music genre you feel like listening to. Must be written with quotes if it's multiple words.
 
 Example usage:
-`python auto-key-mouse jazz` OR
-
-python auto-key-mouse "vaporwave lofi triphop metal" 
+- `python auto-key-mouse jazz` 
+- `python auto-key-mouse "vaporwave lofi triphop metal"` 
 
 # What it does
 As of now, this will navigate to youtube and get you the first video from search using the keyword [genre]. Uses the PyAutoGUI library.
