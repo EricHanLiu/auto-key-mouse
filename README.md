@@ -1,7 +1,7 @@
 # Usage
 1. Download auto-key-mouse.py
 2. Run with Python2 
-3. `python auto-key-mouse [genre]`, where [genre] is any music genre you feel like listening to. Must be written with quotes if it's multiple words.
+3. `python auto-key-mouse [genre]`, where [genre], a string, is any music genre you feel like listening to. Must be written with quotes if it's multiple words.
 
 Example usage:
 - `python auto-key-mouse jazz` 
