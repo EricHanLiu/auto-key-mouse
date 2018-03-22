@@ -5,9 +5,9 @@ a = pyautogui
 a.PAUSE = 2;
 
 if (len(sys.argv) != 2):
-	print("Correct usage: python auto-key-mouse [genre]")
+	print("Correct usage: python auto-key-mouse \"genre\"")
 	sys.exit(0)
-genre = sys.argv[0]
+genre = sys.argv[1]
 
 def get(genre):
 	#open browser (chrome)
